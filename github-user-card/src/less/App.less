@@ -1,0 +1,28 @@
+@import '~antd/dist/antd.css';
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+
+body {
+    background-color: @backgroundColor;
+}
+.App {
+  text-align: center;
+  .centerFlex();
+
+  .userCard{
+      max-width: 400px;
+      color: black;
+      margin: 50px 25px 25px 25px;
+  }
+
+  .userDescription{
+    background-color: @secondaryColor;
+    .centerFlex();
+    flex-wrap: wrap;
+    
+    .descriptionItem{
+      margin: 25px;
+    }
+  }
+}
