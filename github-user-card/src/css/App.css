@@ -1,4 +1,32 @@
 @import '~antd/dist/antd.css';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  /* border:1px solid grey; */
+}
+body {
+  background-color: #414756;
+}
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .userCard {
+  max-width: 400px;
+  color: black;
+  margin: 50px 25px 25px 25px;
+}
+.App .userDescription {
+  background-color: #A5ABBD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.App .userDescription .descriptionItem {
+  margin: 25px;
 }
